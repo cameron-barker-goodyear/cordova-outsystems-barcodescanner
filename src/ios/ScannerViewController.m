@@ -354,7 +354,7 @@
     [self.decodedLabel performSelectorOnMainThread:@selector(setText:) withObject:display waitUntilDone:YES];
     
     // Vibrate
-    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+    //AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
     
     [self dissmissVC: result.text];
 }
